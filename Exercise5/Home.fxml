@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #FFFFFF;" VBox.vgrow="ALWAYS">
+         <children>
+            <AnchorPane prefHeight="30.0" prefWidth="800.0" style="-fx-background-color: #4CB050;">
+               <children>
+                  <Label fx:id="homeLabel" layoutX="610.0" layoutY="3.0" text="Welcome" textFill="WHITE">
+                     <font>
+                        <Font name="Futura Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView layoutX="5.0" layoutY="2.0">
+                     <image>
+                        <Image url="@../../../Downloads/LionBites/Logo2.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="14.0" layoutY="259.0">
+               <image>
+                  <Image url="@../../../Downloads/LionBites/LionBites%20Mascot%20Design%20Background%20Removed%20Background%20Removed.png" />
+               </image>
+            </ImageView>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
